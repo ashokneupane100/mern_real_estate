@@ -1,0 +1,43 @@
+.navbar {
+  font-family: 'Arial', sans-serif;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  margin-right: 1rem;
+  color: #333;
+  transition: color 0.2s;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  margin-right: 0.5rem;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.dropdown-menu {
+  min-width: 10rem;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+@media (max-width: 992px) {
+  .navbar-nav .nav-item {
+    margin-left: 1rem;
+  }
+}

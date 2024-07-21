@@ -1,0 +1,119 @@
+/* General Styles */
+.search-form {
+    padding: 2rem;
+    background-color: #d8e9c5;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-input {
+    margin-bottom: 1.15rem;
+    background-color: rgb(39, 18, 114);
+  }
+  
+  .button-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .button-group .btn {
+    flex-grow: 1;
+    margin: 0 0.05rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top:.15rem;
+    font-size: 1rem;
+  }
+  
+  .btn-buy { background-color: #320dd4; color: white; }
+  .btn-rent { background-color: #216d02; color: white; }
+  .btn-house { background-color: #9c27b0; color: white; }
+  .btn-land { background-color: #9c27b0; color: white; }
+  .btn-price { background-color: #2b04c5; color: white; border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+  
+  .button-group .btn:first-child {
+    margin-left: 0;
+  }
+  
+  .button-group .btn:last-child {
+    margin-right: 0;
+  }
+
+  .button-group button:hover{
+    cursor: pointer;
+    background-color: rgb(2, 13, 80);
+    color: rgb(243, 219, 5);
+    border-radius:50px;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-item:hover {
+    background-color: yellow; /* Change to your desired hover color */
+  }
+  
+  /* Dropdown Styles */
+  .dropdown {
+    position: relative;
+  }
+  
+  .price-dropdown-menu {
+    background-color: #e0cfcf;
+    border-radius: 0 0 15px 15px;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    width: auto; /* Adjust width automatically based on content */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem 0;
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: visible; /* Allow dropdown items to overflow */
+  }
+  
+  .price-dropdown-menu.show {
+    display: block;
+  }
+  
+  .dropdown-item {
+    color: #333;
+    font-weight: bold;
+    border-radius:15px;
+    font-size: 1rem;
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden; /* Prevent content overflow */
+    white-space: nowrap; /* Prevent text wrapping */
+    cursor: pointer;
+  }
+  
+  .dropdown-item:last-child {
+    border-bottom: none;
+  }
+  
+  /* Ensure full text visibility on hover */
+  .dropdown-item:hover {
+    background: #acecba;    
+  }
+  
+  .btn-search{
+    margin-top: 5rem;
+    background-color:blue;
+    color:white;
+    border-radius: 25px;
+    padding:2rem;
+    font-size: 1.5rem;
+    border:3px solid green !important;
+  }
+  
+  .btn-search:hover{
+    background-color:rgb(7, 160, 7);
+    border-radius: 50px;
+    padding:2rem;
+    font-size: 1.5rem;
+    color:rgb(133, 3, 138);
+    border:3px solid blue !important;
+  }

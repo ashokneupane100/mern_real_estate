@@ -1,0 +1,38 @@
+/* index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pointer{
+    cursor:pointer;
+}
+.hoverable:hover{
+    transform:scale(1.01);
+    box-shadow: 0.4rem 0.4rem 1rem rgba(0,0,0,0.15)!important ;
+}
+
+
+.page-not-found {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: rgb(9, 58, 2);
+    color: white;
+    margin-top: -35vh; /* Adjust the negative margin to move content upwards */
+    font-size: 2rem;
+    padding: 1rem; /* Add padding for better spacing */
+    box-sizing: border-box; /* Ensure padding is included in height */
+  }
+  
+  .page-not-found h1 {
+    font-size: 5rem; /* Larger font size for the 404 heading */
+    margin-bottom: 0.5rem; /* Small gap between the heading and the text */
+  }
+  
+  .page-not-found h2 {
+    font-size: 2rem; /* Smaller font size for the Page Not Found text */
+    margin-top: 0; /* Remove default margin */
+  }
+  
